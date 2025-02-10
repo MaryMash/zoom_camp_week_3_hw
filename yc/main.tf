@@ -41,7 +41,7 @@ resource "yandex_mdb_clickhouse_cluster" "mych" {
     resources {
       resource_preset_id = "s2.micro"
       disk_type_id       = "network-hdd"
-      disk_size          = 32
+      disk_size          = 16
     }
   }
 
